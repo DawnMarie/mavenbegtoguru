@@ -141,4 +141,10 @@ Desktop.ini
 # ESLint
 ######################
 .eslintcache
-/jpa-entities/target/
+
+######################
+# Maven
+#####################
+*/target/
+*/.flattened-pom.xml
+.flattened-pom.xml
