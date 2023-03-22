@@ -1,13 +1,14 @@
 package net.damarie;
 
-import org.junit.Test;
 
-import static org.junit.Assert.*;
+import org.testng.annotations.Test;
+
+import static org.testng.Assert.assertEquals;
 
 public class JavaHelloWorldTest {
 
     @Test
-    public void getHello() {
+    public void testGetHello() {
 
         JavaHelloWorld javaHelloWorld = new JavaHelloWorld();
 
