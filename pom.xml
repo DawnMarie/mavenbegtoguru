@@ -7,7 +7,7 @@
 
     <groupId>net.damarie</groupId>
     <artifactId>mb2g-mm-maven</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>${revision}</version>
 
     <packaging>pom</packaging>
 
@@ -20,11 +20,12 @@
     </modules>
 
     <properties>
-            <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-            <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-            <java.version>11</java.version>
-            <maven.compiler.source>${java.version}</maven.compiler.source>
-            <maven.compiler.target>${java.version}</maven.compiler.target>
+        <revision>1.0-SNAPSHOT</revision>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>11</java.version>
+        <maven.compiler.source>${java.version}</maven.compiler.source>
+        <maven.compiler.target>${java.version}</maven.compiler.target>
     </properties>
 
 </project>

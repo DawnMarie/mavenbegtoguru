@@ -6,7 +6,7 @@
     <parent>
         <groupId>net.damarie</groupId>
         <artifactId>mb2g-mm-maven</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <version>${revision}</version>
     </parent>
 
     <artifactId>web-app</artifactId>
@@ -21,7 +21,7 @@
         <dependency>
             <groupId>net.damarie</groupId>
             <artifactId>converters</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>${project.version}</version>
         </dependency>
     </dependencies>
 
